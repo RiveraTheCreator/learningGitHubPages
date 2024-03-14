@@ -1,0 +1,51 @@
+name: "Club de Estudio"
+description: "Sitio web del Club de Estudio"
+
+# Menú de navegación
+navigation:
+- title: "Inicio"
+  href: "/"
+- title: "Sobre nosotros"
+  href: "/about/"
+- title: "Calendario"
+  href: "/calendar/"
+- title: "Recursos"
+  href: "/resources/"
+- title: "Contacto"
+  href: "/contact/"
+
+# Contenido de la página de inicio
+home:
+  title: "Bienvenidos al Club de Estudio"
+  image: "imagen-portada.jpg"
+  content: |
+    <p>El Club de Estudio es un espacio para que estudiantes apasionados por el aprendizaje se reúnan, compartan ideas y se apoyen mutuamente.</p>
+    <p>Aquí puedes encontrar información sobre:</p>
+    <ul>
+      <li>Próximos eventos y actividades</li>
+      <li>Recursos de estudio y aprendizaje</li>
+      <li>Cómo unirte al club</li>
+    </ul>
+
+# Contenido de la página "Sobre nosotros"
+about:
+  title: "Sobre el Club de Estudio"
+  content: |
+    <p>El Club de Estudio fue fundado en [año] por un grupo de estudiantes que buscaban crear un espacio para:</p>
+    <ul>
+      <li>Compartir su pasión por el aprendizaje</li>
+      <li>Aprender de otros estudiantes</li>
+      <li>Desarrollar habilidades de estudio y trabajo en equipo</li>
+    </p>
+
+# ... (secciones adicionales para calendario, recursos y contacto)
+
+# Pie de página
+footer:
+  copyright: "Copyright © [año] Club de Estudio"
+  social:
+    - name: "Facebook"
+      href: "https://www.facebook.com/tu-club-de-estudio"
+    - name: "Twitter"
+      href: "https://twitter.com/tu_club_de_estudio"
+
